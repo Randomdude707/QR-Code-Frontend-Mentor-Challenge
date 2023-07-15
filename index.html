@@ -15,9 +15,9 @@
     .attribution a { color: hsl(228, 45%, 44%); }
     body{background-color: hsl(212, 45%, 89%);}
     .card{
-      width: 300px;
-    height: 480px;
-    border-radius: 20px;
+    width: 20em;
+    height: 31em;
+    border-radius: 15px;
     background-color: white;
     position: absolute;
     top: 0;
@@ -25,42 +25,54 @@
     left: 0;
     right: 0;
     margin: auto;
+    box-shadow: 0 2px 15px rgba(0,0,0,.1);
+
+    }
+    *{
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
     }
     img{
       display: block;
-      width: 90%;
-      margin: auto;
-      padding: 15px;
-      border-radius: 25px;
+      width: 290px;
+      margin: 15px;
+      margin-bottom: 9px;
+      border-radius: 10px;
     }
     h1{
       text-align: center;
       font-family: "Outfit";
       font-weight: 700;
-      font-size: 22px;
-      padding: 10px;
-      padding-bottom: 0px;
-      padding-top: 0px;
+      font-size: 1.4rem;
+      padding: 15px;
       color: hsl(218,44%,22%)
 
     }
     p{
       text-align: center;
-      font-size: 16px;
+      font-size: .95rem;
       font-family: "Outfit";
       font-weight: 400;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding:0 30px;
       color:hsl(220,15%,55%)
     }
     
   </style>
 </head>
-<body> 
-  <div class="card">
-    <img src="images/image-qr-code.png" width="200px">
-    <h1>Improve your front-end skills by building projects</h1>
-    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-  </div>
+<body>
+  <main>
+    <div class="card">
+      <img src="images/image-qr-code.png" width="200px">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </main>
 </body>
+<footer class="attribution">
+  <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Randomdude707" target="_blank" rel="noopener">Randomdude707</a>.
+  </p>
+</footer>
 </html>
