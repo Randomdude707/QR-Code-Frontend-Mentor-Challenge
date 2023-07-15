@@ -1,9 +1,13 @@
-# Frontend Mentor - QR code component
+# Frontend Mentor - QR Code Component Practice
 
-![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
+## My goal was to recreate this image in Desktop
+(./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Also in mobile
+(./design/mobile-design.jpg)
 
-Thanks for checking out this front-end coding challenge.
+## Here is my desktop design
+(./images/FinalDesktopResult.png)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## My mobile design
+(./images/FinalMobileResult.png)
